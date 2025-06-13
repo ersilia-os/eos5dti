@@ -12,8 +12,7 @@ Subtask: Activity prediction
 Input:
 - Compound
 Input Dimension: 1
-Output:
-- Score 
+Output: Score 
 Output Dimension: 26
 Output Consistency: Fixed
 Interpretation: 'Probability of being active against Acinetobacter baumannii and global consensus score'
