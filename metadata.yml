@@ -14,7 +14,6 @@ Input:
 Input Dimension: 1
 Output:
 - Score 
-- Probability
 Output Dimension: 26
 Output Consistency: Fixed
 Interpretation: 'Probability of being active against Acinetobacter baumannii and global consensus score'
@@ -22,7 +21,7 @@ Tag:
 - A.baumannii
 - Antimicrobial activity
 - ChEMBL
-Biomedical Area:
+Biomedical Area: Antimicrobial resistance
 Target Organism: Acinetobacter baumannii
 Publication Type: Other
 Publication Year: 2025
