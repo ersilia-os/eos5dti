@@ -1,7 +1,7 @@
 name: Test model on PR
 
 on:
-  pull_request_target:
+  pull_request:
     branches:
       - main
 
@@ -10,5 +10,5 @@ jobs:
     if: github.repository != 'ersilia-os/eos-template'
     uses: ersilia-os/ersilia-model-workflows/.github/workflows/test-model-pr.yml@main
     with:
-      branch: ${{ github.event.pull_request.head.ref }}
-      repo_name: ${{ github.event.pull_request.head.repo.name }}
+      branch: ${{ github.head_ref }}
+      repo_name: ${{ github.event.repository.name }}
