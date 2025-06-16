@@ -2,7 +2,7 @@ Identifier: eos5dti
 Slug: chembl-abaumannii
 Status: In progress
 Title: Acinetobacter baumannii activity prediction
-Description: Acinetobacter baumannii activity prediction based on ChEMBL data
+Description: Acinetobacter baumannii activity prediction based on phenotypic ChEMBL data. Each column corresponds to a specific bioactivity dataset derived from ChEMBL, encompassing multiple assays and binarization cut-offs. The global consensus score summarizes the probability of being active. Model developed by Ersilia.
 Deployment:
 - Local
 Source: Local
@@ -16,7 +16,7 @@ Output:
 - Score 
 Output Dimension: 26
 Output Consistency: Fixed
-Interpretation: 'Probability of being active against Acinetobacter baumannii and global consensus score'
+Interpretation: 'The higher the probabilities and the global consensus scores, the more likely this compound is active against Acinetobacter baumannii'
 Tag:
 - A.baumannii
 - Antimicrobial activity
