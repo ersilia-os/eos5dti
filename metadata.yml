@@ -1,6 +1,6 @@
 Identifier: eos5dti
 Slug: chembl-abaumannii
-Status: In progress
+Status: Ready
 Title: Acinetobacter baumannii activity prediction
 Description: Acinetobacter baumannii activity prediction based on phenotypic 
   ChEMBL data. Each column corresponds to a specific bioactivity dataset derived
@@ -38,5 +38,15 @@ License: GPL-3.0-only
 Contributor: arnaucoma24
 Incorporation Date: '2025-06-13'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5dti.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos5dti
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 945.0
 Environment Size: 726.0
+Image Size: 2061.65
+Computational Performance 1: 46.4
+Computational Performance 2: 35.91
+Computational Performance 3: 36.73
+Computational Performance 4: 228.96
+Computational Performance 5: 1096.49
