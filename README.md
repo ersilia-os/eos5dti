@@ -43,12 +43,19 @@ _10 of 26 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5dti](https://hub.docker.com/r/ersiliaos/eos5dti)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5dti.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5dti.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `945`
 - **Environment Size (Mb):** `726`
+- **Image Size (Mb):** `2061.65`
 
+**Computational Performance (seconds):**
+- 10 inputs: `46.4`
+- 100 inputs: `36.73`
+- 10000 inputs: `1096.49`
 
 ### References
 - **Source Code**: [None](None)
