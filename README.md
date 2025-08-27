@@ -59,8 +59,8 @@ _10 of 26 columns are shown_
 - 10000 inputs: `323.49`
 
 ### References
-- **Source Code**: [None](None)
-- **Publication**: [None](None)
+- **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
+- **Publication**: [https://ersilia.io/](https://ersilia.io/)
 - **Publication Type:** `Other`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [arnaucoma24](https://github.com/arnaucoma24)
