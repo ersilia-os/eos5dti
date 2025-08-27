@@ -2,8 +2,7 @@
 
 Acinetobacter baumannii activity prediction based on phenotypic ChEMBL data. Each column corresponds to a specific bioactivity dataset derived from ChEMBL, encompassing multiple assays and binarization cut-offs. The global consensus score summarizes the probability of being active. Model developed by Ersilia.
 
-This model was incorporated on 2025-06-13.
-
+This model was incorporated on 2025-06-13.Last packaged on 2025-08-27.
 
 ## Information
 ### Identifiers
@@ -51,12 +50,12 @@ _10 of 26 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `473`
 - **Environment Size (Mb):** `731`
-- **Image Size (Mb):** `2065.91`
+- **Image Size (Mb):** `2145.61`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.81`
-- 100 inputs: `21.64`
-- 10000 inputs: `323.49`
+- 10 inputs: `33.06`
+- 100 inputs: `22.49`
+- 10000 inputs: `335`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/chembl-antimicrobial-models](https://github.com/ersilia-os/chembl-antimicrobial-models)
