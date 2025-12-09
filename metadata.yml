@@ -1,6 +1,6 @@
 Identifier: eos5dti
 Slug: chembl-abaumannii
-Status: Ready
+Status: Archived
 Title: Acinetobacter baumannii activity prediction
 Description: Acinetobacter baumannii activity prediction based on phenotypic 
   ChEMBL data. Each column corresponds to a specific bioactivity dataset derived
